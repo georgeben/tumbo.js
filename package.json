@@ -1,0 +1,16 @@
+{
+  "name": "tumbojs",
+  "version": "1.0.0",
+  "description": "A javascript package for randomly selecting items from an array efficiently.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tumbo",
+    "random",
+    "array"
+  ],
+  "author": "George Benjamin",
+  "license": "ISC"
+}
