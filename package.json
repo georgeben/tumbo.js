@@ -16,5 +16,9 @@
     "array"
   ],
   "author": "George Benjamin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
 }
