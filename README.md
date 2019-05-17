@@ -1,6 +1,8 @@
 # tumbo.js
 Randomly select elements from an array efficiently.
 
+[![Build Status](https://travis-ci.com/georgeben/tumbo.js.svg?branch=master)](https://travis-ci.com/georgeben/tumbo.js)
+
 Tumbo.js is an npm package to randomly select a desired number of elements from an array.
 
 ## Getting started.
