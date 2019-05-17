@@ -1,4 +1,16 @@
-module.exports.pick = (arr, n) => {
+/**
+ * @module tumbojs
+ */
+
+ /**
+  * Randomly selects a specified number of elements from an array
+  * @param {Array} arr - The array to select from
+  * @param {number} n - The number of random elements to select from the array
+  * @returns {Array} - A new array containing the randomly selected elements
+  * @throws {IllegalArgumentException}
+  */
+
+  function pick(arr, n){
     if(typeof(arr) === 'undefined'){
         throw new Error('Illegal argument exception - array is not defined.');
     }
@@ -37,4 +49,6 @@ module.exports.pick = (arr, n) => {
         arrc.splice(r, 1);
     }
     return selected;
-}
+  }
+
+exports.pick = pick
